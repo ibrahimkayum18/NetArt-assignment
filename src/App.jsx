@@ -1,15 +1,22 @@
 import "./App.css";
 import Banner from "./components/Banner";
 import header from "./assets/logo.png";
+import Service from "./components/Service";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
       {/* Header Image added */}
-      <img src={header} className="w-[30%] mx-auto" alt="" />
+      <img src={header} className="w-[70%] lg:w-[30%] mx-auto" alt="" />
 
       {/* Banner Section Added */}
       <Banner />
-      <h1>This is new Web Site</h1>
+
+      {/* Service Section */}
+      <Service />
+
+      {/* Footer Section */}
+      <Footer />
     </>
   );
 }

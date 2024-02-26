@@ -3,14 +3,14 @@ import bannerRightImage from "./../assets/2.png";
 const Banner = () => {
   return (
     // Full Banner Section
-    <div className="flex justify-center items-center gap-5">
+    <div className="lg:flex justify-center items-center gap-5">
       {/* Left side Image */}
-      <div className=" w-[35%]">
+      <div className="w-[95%] lg:w-[35%]">
         <img src={leftImg} alt="" />
       </div>
 
       {/* Right side Contents */}
-      <div className=" w-[65%]">
+      <div className=" w-full px-5 lg:px-0 lg:w-[65%]">
         <h2 className="font-bold">
           {" "}
           C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the
